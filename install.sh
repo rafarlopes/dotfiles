@@ -12,7 +12,7 @@ DOTFILES_REPO="https://github.com/rafarlopes/dotfiles.git"
 git clone $DOTFILES_REPO ~/.dotfiles
 
 cp ~/.dotfiles/files/gitconfig ~/.gitconfig
-cp ~/.dotfiles/files/gitignore ~/.gitignore
+#cp ~/.dotfiles/files/gitignore ~/.gitignore
 cp ~/.dotfiles/files/bash_profile ~/.bash_profile
 
 rm -Rf ~/.dotfiles
