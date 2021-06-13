@@ -1,0 +1,40 @@
+[user]
+  name = Rafael Romero Lopes
+  email = rafarlopes@hotmail.com
+[color]
+  diff = auto
+  status = auto
+  branch = auto
+  ui = true
+  interactive = auto
+[init]
+  defaultBranch = main
+[alias]
+  st = status
+  ci = commit
+  br = branch
+  co = checkout
+  df = diff
+  lg = log -p
+  up = push
+  dw = pull --rebase
+  cp = cherry-pick
+  ca = commit -a
+  cm = commit -m
+  cam = commit -am
+  dc = diff --cached
+  l = log --graph --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset" --abbrev-commit
+[push]
+  default = matching
+[pull]
+  rebase = true
+[web]
+  browser = google-chrome
+[credential]
+  helper = osxkeychain
+[push]
+  default = simple
+[merge]
+  tool = kdiff3
+[difftool]
+  prompt = false

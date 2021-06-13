@@ -1,0 +1,27 @@
+# Folders
+alias ..='cd ..'
+alias db="cd ~/Dropbox"
+alias dl="cd ~/Downloads"
+alias dk="cd ~/Desktop"
+alias dev="cd ~/Dev"
+
+# Commands
+alias env="env | sort"
+alias ll="ls -l ${colorflag}"
+alias lla="ls -l ${colorflag}"
+alias ls="command ls ${colorflag}"
+alias la="ls -la ${colorflag}"
+alias hist="history"
+alias top="top -o cpu"
+
+# Git aliases.
+alias gs='git status'
+alias gc='git commit'
+alias gp='git pull --rebase'
+alias gcam='git commit -am'
+alias gl='git log --graph --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset" --abbrev-commit'
+
+# General
+alias k="kubectl"
+alias gits="git status"
+alias dev="cd ~/dev"
